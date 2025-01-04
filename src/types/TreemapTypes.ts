@@ -1,6 +1,7 @@
 export interface TreeNode {
   name: string;
   value: number;
+  level?: 'root' | 'country' | 'company' | 'division';
   children?: TreeNode[];
   x?: number;
   y?: number;
